@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.idcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.idcard input[type=text]{
+    width: 300px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 43, 127);
+}
+.idcard input[type=submit]{
+    /* width: 300px; */
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 43, 127);
+}
+
+.card{
+  width: 800px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  /* background-color: red; */
+}
+
+.card .front, .card .back{
+  width: 300px;
+  margin: 0 auto;
+  height: 400px;
+  border: 1px solid rgb(202, 202, 202);
+  overflow: hidden;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  position: relative;
+}
+.card .front .card-header{
+  padding: 20px 20px 0px 20px;
+}
+.card .front .card-body{
+  padding:0  20px;
+}
+.card .back{
+   padding: 20px;
+  text-align: center;
+  
+}
+.card .back p, h1, img{
+  margin-top: 10px;
+  
+}
+.card .back .regi{
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+
+  
+}
+.card .back img{
+  margin-top: 20px;
+}
+.card .back .code{
+      position: absolute;
+    left: -51px;
+    bottom: 88px;
+    transform: rotate(90deg);
+ 
+}
+
+.card .front .card-header{
+  display: flex;
+}
+.card .front .card-header img{
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.card-body .card-info{
+  text-align: center;
+}
+.card-body .card-info h3, p{
+  margin-top: 5px;
+}
+.card-body .card-info div {
+ width: 100%;
+ /* background-color: red; */
+ display: flex;
+ padding: 0 30px;
+}
+.card-body .card-info div p:first-child{
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+.card-body .card-info div p:last-child{
+  width: 70%;
+  text-align: left;
+}
+.card-footer{
+  text-align: center;
+  color: white;
+  background-color: rgb(40, 43, 127);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+.card-footer h1{
+ margin: 0;
+}
+.barc{
+  display: inline-block;
+}
+
+.barcode{
+       position: absolute;
+    left: -88px;
+    bottom: 27px;
+    transform: rotate(90deg);
+    width: 230px;
+}
+

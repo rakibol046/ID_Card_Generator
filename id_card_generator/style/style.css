@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.main-content{
+    margin: 10px 120px;
+}
+
+
+.about-team{
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   padding: 10px;
+}
+.about-sup{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   padding: 10px;
+}
+.about-us{
+  margin: 10px;
+  text-align: center;
+  color: rgb(40, 43, 127);
+}
+.about-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 20px; */
+  grid-gap: 10px;
+}
+.member-profile{
+  display: flex;
+  padding: 10px;
+  /* background-color: whitesmoke; */
+  margin-bottom: 7px;
+  /* border-top: 5px solid whitesmoke; */
+}
+.member-profile img{
+  padding-right: 20px;
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+}
+.about-main h2{
+  text-align: center;
+}
+.supervisor-profile{
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+.update-form{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.update-form input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.update-form input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.update-form input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.update-form input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.search input[type=text]{
+    width: 300px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 43, 127);
+}
+.search input[type=submit]{
+    /* width: 300px; */
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(40, 43, 127);
+}
+.add{
+    padding: 7px;
+    background-color: #45a049;
+    color: white;
+}
